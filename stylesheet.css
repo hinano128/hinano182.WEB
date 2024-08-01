@@ -1,0 +1,195 @@
+@charset "utf-8";
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Zen Kurenaido", "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+
+/*cssはここから書いていくっ*/
+
+.header {
+    height: 90px;
+    color: #26190d; ;
+}
+
+.header-logo {
+    float: left;
+}
+
+.header-logo img {
+    height: 60px;
+    padding: 15px 40px;
+}
+
+.header-list ul {
+    text-align: right;
+    padding-top: 35px;
+    padding-right: 40px;
+
+}
+
+.header-list li {
+    display: inline;
+    padding: 30px 20px;
+    font-size: 30px;
+}
+
+.header-list li:hover {
+  cursor: pointer;
+	opacity: 0.7;
+}
+
+.top img {
+    width: 95%;
+}
+
+
+.container {
+  width: 1200px;
+  padding-top: 50px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 30px;
+  margin: 0 auto;
+}
+
+.heading {
+  height: 90px;
+  color: #26190d;
+  text-align: center;
+
+}
+
+
+.explain {
+  display: flex;
+}
+
+.image {
+  width: 500px;
+  margin: 25px;
+  padding: 0;
+
+}
+
+.txt-contents {
+  margin: 25px 25px 0 40px;
+}
+
+.txt-contents-title {
+  margin-bottom: 15px;
+}
+
+
+.hobby {
+  padding-bottom: 20px;
+}
+
+.style {
+  background-image: url(../img/ペーパーテクスチャ.jpg);
+}
+
+.style-images {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.style-image {
+  width: 23%;
+  margin: 10px;
+}
+
+.menus {
+  display: flex;
+  flex-flow: column wrap;
+  height: 600px;
+}
+.menu-heading {
+  border-bottom: 2px dashed #26190d;
+  margin-bottom: 10px;
+}
+.menu {
+  height: 270px;
+  width: 350px;
+}
+.menu-left {
+  float: left;
+  margin-bottom: 5px;
+}
+.menu-right {
+  text-align: right;
+  margin-bottom: 5px;
+}
+.menu-img {
+  width: 350px;
+}
+.menu-footing {
+  text-align: center;
+}
+.menu-footing p {
+  margin-bottom: 20px;
+}
+.btn {
+  width: 200px;
+  height: 40px;
+  color: white;
+  background-color: #8AA660;
+  
+
+}
+
+.button-tag:hover {
+  cursor: pointer;
+	opacity: 0.7;
+}
+
+.wrapper-reserve {
+  background-color: #E6DEC6;
+}
+.center {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.phone {
+  margin-bottom: 20px;
+}
+.open {
+  margin-left: 440px;
+  margin-bottom: 10px;
+}
+
+.close {
+  margin-left: 440px;
+  margin-bottom: 30px;
+}
+
+.button-tag {
+  text-align: center;
+}
+
+.explain-top {
+  margin-bottom: 10px;
+}
+.access-explain {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.footer p {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+}
